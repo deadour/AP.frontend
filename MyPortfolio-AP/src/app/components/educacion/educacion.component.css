@@ -1,0 +1,17 @@
+.row{
+    padding: 20px;
+    border: 1.5px outset #000;
+}
+
+div{
+    background-color: rgb(63 91 149);
+}
+
+h2, h3{
+    display:inline;
+}
+
+#titulo{
+    background-color: #7c9bb5;
+    border: 1.5px outset #000;
+}
