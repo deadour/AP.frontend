@@ -1,0 +1,10 @@
+div{
+    background-color: #1245ed;
+    border: 1.5px groove #000;
+}
+
+app-social{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
