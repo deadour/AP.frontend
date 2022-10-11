@@ -23,9 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css", "MyPortfolio-AP/node_modules/bootstrap/dist/css/bootstrap.css"
+              "src/styles.css", "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": ["MyPortfolio-AP/node_modules/bootstrap/dist/js/bootstrap.js"]
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js"]
           },
           "configurations": {
             "production": {

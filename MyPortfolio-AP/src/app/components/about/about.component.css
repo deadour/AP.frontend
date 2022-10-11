@@ -1,0 +1,67 @@
+.row{
+    padding: 20px;
+}
+
+
+
+div{
+    background-color: #34476ef5;
+    text-align: center;
+}
+
+#bio{
+    background-color: #cbcbcb;
+    border: 1.5px outset #000;
+}
+
+#about{
+    background-color: #bbbbbb94;
+    border: 1.5px outset rgb(0, 0, 0);
+}
+
+@media (min-width: 576px){
+    #profilepic{
+        border-radius: 100%;
+        border: 1.5px outset #000;
+        position: absolute;
+        width: 15%;
+        left: 10%;
+        top:470px;
+    }
+    #nombre{
+        font-weight: bold;
+        margin-top: 38%;
+        }
+
+    #descripcion{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 575px){
+    #profilepic{
+        border-radius: 60%;
+        border: 1.5px outset #000;
+        position: absolute;
+        width: 40%;
+        left: 30%;
+        top:415px;
+    }
+    #nombre{
+        font-weight: bold;
+        margin-top: 25%;
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 460px){
+    #profilepic{
+        border-radius: 60%;
+        border: 1.5px outset #000;
+        position: absolute;
+        width: 40%;
+        left: 30%;
+        top:520px;
+    }
+}
