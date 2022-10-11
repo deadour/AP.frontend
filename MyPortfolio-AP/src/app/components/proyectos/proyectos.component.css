@@ -1,0 +1,51 @@
+.row{
+    padding: 60px;
+    background-image: linear-gradient(55deg, #23497e 0, #2c477d 25%, #34467c 50%, #3b457b 75%, #414379 100%);} 
+
+.contenedor{
+    align-self: center;
+    width: auto;
+    border: 1.5px groove #000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(175deg, #004765 0, #004668 7.14%, #00456a 14.29%, #00446c 21.43%, #00426d 28.57%, #09406d 35.71%, #1f3e6c 42.86%, #2d3c6b 50%, #383a69 57.14%, #413766 64.29%, #4a3562 71.43%, #51325e 78.57%, #57305a 85.71%, #5c2e55 92.86%, #602c4f 100%);
+}
+.contenedor2{
+    align-self: center;
+    width: auto;
+    border: 1.5px groove #000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(175deg, #004765 0, #004668 7.14%, #00456a 14.29%, #00446c 21.43%, #00426d 28.57%, #09406d 35.71%, #1f3e6c 42.86%, #2d3c6b 50%, #383a69 57.14%, #413766 64.29%, #4a3562 71.43%, #51325e 78.57%, #57305a 85.71%, #5c2e55 92.86%, #602c4f 100%);
+}
+
+.contenedor3{
+    align-self: center;
+    width: auto;
+    border: 1.5px groove #000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(175deg, #004765 0, #004668 7.14%, #00456a 14.29%, #00446c 21.43%, #00426d 28.57%, #09406d 35.71%, #1f3e6c 42.86%, #2d3c6b 50%, #383a69 57.14%, #413766 64.29%, #4a3562 71.43%, #51325e 78.57%, #57305a 85.71%, #5c2e55 92.86%, #602c4f 100%);
+}
+
+
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+    color: #dde5e5;
+}
+
+#titulo{
+    background-color: #7c9bb5;
+    border: 1.5px outset #000;
+}
+
+.img-proyecto{
+    box-shadow: 10px 10px 30px #000;
+    box-shadow: ejeX ejeY difumasion color;
+}
+
+#ltc{
+    border: #000;
+}
