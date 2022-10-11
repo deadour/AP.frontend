@@ -10,13 +10,21 @@ div{
 }
 
 #bio{
-    background-color: #cbcbcb;
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+    
+
     border: 1.5px outset #000;
 }
 
 #about{
-    background-color: #bbbbbb94;
-    border: 1.5px outset rgb(0, 0, 0);
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1.5px outset #000;
+    font-size: 18px;
+    color:#e3eeff
 }
 
 @media (min-width: 576px){

@@ -4,18 +4,42 @@
 }
 
 div{
-    background-image: linear-gradient(55deg, #23497e 0, #2c477d 25%, #34467c 50%, #3b457b 75%, #414379 100%);} 
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+} 
 
 h2, h3{
     display:inline;
 }
 
-#titulo{
+/*#titulo{
     background-color: #7c9bb5;
+    border: 1.5px outset #000;
+}*/
+
+#titulo{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
     border: 1.5px outset #000;
 }
 
 #texto{
     color: #dde5e5;
     padding-left: 40px;
+}
+
+#utn{
+    width: 70px;
+    height: 70px;
+}
+
+#ipgsm{
+    width: 70px;
+    height: 85px;
+}
+
+#blackpool{
+    width: 200px;
+    height: 90px;
 }

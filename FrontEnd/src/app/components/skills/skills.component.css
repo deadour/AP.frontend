@@ -1,13 +1,18 @@
 .row{
     padding: 60px;
     border: 1.5px outset #000;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 
 div{
+    background-image: linear-gradient(to left, #243949 0%, #517fa4 100%);
     background-color: #3f5b95;}
 
 #titulo{
-    background-color: #7c9bb5;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
     border: 1.5px outset #000;
 }
 
