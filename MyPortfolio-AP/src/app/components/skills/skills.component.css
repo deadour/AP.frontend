@@ -4,7 +4,7 @@
 }
 
 div{
-    background-image: linear-gradient(55deg, #23497e 0, #2c477d 25%, #34467c 50%, #3b457b 75%, #414379 100%);} 
+    background-color: #3f5b95;}
 
 #titulo{
     background-color: #7c9bb5;
@@ -14,4 +14,4 @@ div{
 #texto{
     color: #dde5e5;
     padding-left: 40px;
-}
+}  
