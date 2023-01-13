@@ -22,6 +22,8 @@ import { EditExperienciaComponent } from './components/exp/edit-experiencia.comp
 import { interceptorProvider } from './service/interceptor-service';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+import { EditSkillComponent } from './components/skills/edit-skill.component';
+import { NewSkillComponent } from './components/skills/new-skill.component';
 
 
 
@@ -42,7 +44,9 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
-    EditeducacionComponent
+    EditeducacionComponent,
+    EditSkillComponent,
+    NewSkillComponent
   ],
   imports: [
     BrowserModule,
