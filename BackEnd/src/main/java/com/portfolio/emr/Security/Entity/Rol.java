@@ -14,23 +14,20 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 @Entity
-
 public class Rol {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @NotNull
     @Enumerated(EnumType.STRING)
-    private RolNombre rolnombre;
+    private RolNombre rolNombre;
     
     //Constructor
-    
-    public Rol () {
-        
+    public Rol() {
     }
 
-    public Rol(RolNombre rolnombre) {
-        this.rolnombre = rolnombre;
+    public Rol(RolNombre rolNombre) {
+        this.rolNombre = rolNombre;
     }
     
     //Getter y Setter
@@ -43,16 +40,13 @@ public class Rol {
         this.id = id;
     }
 
-    public RolNombre getRolnombre() {
-        return rolnombre;
+    public RolNombre getRolNombre() {
+        return rolNombre;
     }
 
-    public void setRolnombre(RolNombre rolnombre) {
-        this.rolnombre = rolnombre;
+    public void setRolNombre(RolNombre rolNombre) {
+        this.rolNombre = rolNombre;
     }
-
-    Object getRolNombre() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
     
 }

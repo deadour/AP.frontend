@@ -37,9 +37,8 @@ public class UsuarioPrincipal implements UserDetails {
                 .map(rol -> new SimpleGrantedAuthority(rol.getRolNombre().name())).collect(Collectors
                 .toList());
         return new UsuarioPrincipal(usuario.getNombre(), usuario.getNombreUsuario(), usuario.getEmail(),
-                 usuario.getPassword(), authorities);
+                usuario.getPassword(), authorities);
     }
-
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
