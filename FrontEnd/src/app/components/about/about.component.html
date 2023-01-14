@@ -1,6 +1,10 @@
 <div class="row">
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+            Editar Persona
+        </button>
+
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="bio"> 
-        <img src="../../../assets/about/profilepic.jpg" class="img-fluid" id="profilepic">
+        <img src={{persona.img}} class="img-fluid" id="profilepic">
         <h4 id="nombre">{{persona.nombre}} {{persona.apellido}}</h4>
         <p id="descripcion">Full Stack Developer Jr.</p>
         <p id="ubicacion">🇦🇷 Resistencia, Chaco</p>
@@ -9,11 +13,7 @@
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" id="about">
         <span>
             <h2>Acerca de mi</h2>
-            <p> Nací en la Ciudad de Formosa, el 17 de julio de 2000.</p>
-            <p> Actualmente vivo en la Ciudad de Resistencia y estudio Ingeniería en Sistemas de Información en la UTN FRRe.</p>
-            <p> Hincha de Boca y fanático de Los Piojos y Ciro.</p>
-            <p>En mis tiempos libres, me gusta <a href="https://letterboxd.com/eduramirez87/" target="_blank">mirar películas</a>.</p>
-            <p>La portada es una captura del video musical de <a href="https://www.youtube.com/watch?v=g72TaYWG4Sg" target="_blank">You Only Live Once</a>, de The Strokes</p>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
 </div>
