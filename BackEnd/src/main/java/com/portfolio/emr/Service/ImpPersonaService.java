@@ -1,45 +1,37 @@
 package com.portfolio.emr.Service;
 
 import com.portfolio.emr.Entity.Persona;
+import com.portfolio.emr.Interface.IPersonaService;
 import com.portfolio.emr.Repository.IPersonaRepository;
 import java.util.List;
-import java.util.Optional;
-import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-@Transactional
-public class ImpPersonaService {
 
-    @Autowired
-    IPersonaRepository ipersonaRepository;
+public class ImpPersonaService implements IPersonaService{
+    @Autowired IPersonaRepository IpersonaRepository;
     
-    public List<Persona> list(){
-         return ipersonaRepository.findAll();
-     }
-     
-     public Optional<Persona> getOne(int id){
-         return ipersonaRepository.findById(id);
-     }
-     
-     public Optional<Persona> getByNombre(String nombre){
-         return ipersonaRepository.findByNombre(nombre);
-     }
-     
-     public void save(Persona persona){
-         ipersonaRepository.save(persona);
-     }
-     
-     public void delete(int id){
-         ipersonaRepository.deleteById(id);
-     }
-     
-     public boolean existsById(int id){
-         return ipersonaRepository.existsById(id);
-     }
-     
-     public boolean existsByNombre(String nombre){
-         return ipersonaRepository.existsByNombre(nombre);
-     }
+    @Override
+    public List<Persona> getPersona() {
+        List<Persona> persona = IpersonaRepository.findAll();
+        return persona;
+    }
+
+    @Override
+    public void savePersona(Persona persona) {
+        IpersonaRepository.save(persona);
+    }
+
+    @Override
+    public void deletePersona(Long id) {
+        IpersonaRepository.deleteById(id);
+    }
+
+    @Override
+    public Persona findPersona(Long id) {
+        Persona persona = IpersonaRepository.findById(id) .orElse(null);
+        return persona;
+    }
+    
 }

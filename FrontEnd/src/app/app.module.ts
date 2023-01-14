@@ -24,7 +24,6 @@ import { NeweducacionComponent } from './components/educacion/neweducacion.compo
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { EditSkillComponent } from './components/skills/edit-skill.component';
 import { NewSkillComponent } from './components/skills/new-skill.component';
-import { EditAcercadeComponent } from './components/about/edit-acercade.component';
 
 
 
@@ -47,8 +46,7 @@ import { EditAcercadeComponent } from './components/about/edit-acercade.componen
     NeweducacionComponent,
     EditeducacionComponent,
     EditSkillComponent,
-    NewSkillComponent,
-    EditAcercadeComponent
+    NewSkillComponent
   ],
   imports: [
     BrowserModule,
