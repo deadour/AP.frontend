@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "frontendemr"
+  },
+  "targets": {
+    "frontendemr": {
+      "hosting": {
+        "MyPortfolio-AP": [
+          "frontendemr"
+        ]
+      }
+    }
   }
 }
